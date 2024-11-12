@@ -1,0 +1,100 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .bem-vindo {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    flex-direction: column;
+  
+    gap: 32px;
+    line-height: 24px;
+  
+    div {
+      h1 {
+        font-size: 32px;
+        margin-bottom: 32px;
+        line-height: 40px;
+      }
+    }
+    img {
+      width: 100%;
+      width: 100%;
+    }
+  
+    font-size: 18px;
+  
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  
+      img {
+        max-width: 50%;
+      }
+    }
+  
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  
+      img {
+        max-width: 50%;
+      }
+    }
+  }
+  
+  .button-sugest {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 24px;
+  
+    button {
+      background-color: #7049a6;
+      width: 150px;
+      height: 50px;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #f1f1f1;
+    }
+  
+    a {
+      padding: 10px 20px;
+      border-radius: 6px;
+      white-space: nowrap;
+      color: #7049a6;
+    }
+  }
+  footer {
+    text-align: left;
+    padding: 8px;
+    background-color: #1d4ed4;
+    color: white;
+  }
+ 
+  
