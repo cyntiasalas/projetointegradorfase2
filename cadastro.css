@@ -1,0 +1,229 @@
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+  
+  /* Estilo dos títulos h1 e h2, centralizando o texto, ajustando o tamanho da fonte e adicionando margem superior */
+  h1,
+  h2 {
+    text-align: center;
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
+    margin-top: 60px; /* Mantém a margem superior */
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo do Formulário */
+  
+  /* Estilo geral do formulário, incluindo margens, preenchimentos, bordas e fundo */
+  form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 100%;
+  }
+  
+  /* Estilo dos rótulos do formulário, incluindo exibição em bloco e margens inferiores */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo dos campos de entrada de texto, e-mail, telefone e botões do formulário, incluindo largura, preenchimentos, margens e bordas */
+  form input[type='text'],
+  form input[type='email'],
+  form input[type='tel'],
+  form button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo dos botões do formulário, incluindo cor de fundo, cor do texto, bordas e cursor */
+  form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-cadastrar:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .tab-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 0 15px;
+    cursor: pointer;
+    background-color: #7049a6;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .tab-button:hover {
+    background-color: #5f2ee7;
+  }
+  
+  .form-content {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .form-content.show {
+    display: block;
+    max-height: 1000px;
+  }
+  
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+  
+  /* Estilo dos títulos h1 e h2, centralizando o texto, ajustando o tamanho da fonte e adicionando margem superior */
+  h1,
+  h2 {
+    text-align: center;
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
+    margin-top: 60px; /* Mantém a margem superior */
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo do Formulário */
+  
+  /* Estilo geral do formulário, incluindo margens, preenchimentos, bordas e fundo */
+  form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 100%;
+  }
+  
+  /* Estilo dos rótulos do formulário, incluindo exibição em bloco e margens inferiores */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo dos campos de entrada de texto, e-mail, telefone e botões do formulário, incluindo largura, preenchimentos, margens e bordas */
+  form input[type='text'],
+  form input[type='email'],
+  form input[type='tel'],
+  form button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo dos botões do formulário, incluindo cor de fundo, cor do texto, bordas e cursor */
+  form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-cadastrar:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .tab-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 0 15px;
+    cursor: pointer;
+    background-color: #7049a6;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .tab-button:hover {
+    background-color: #5f2ee7;
+  }
+  
+  .form-content {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .form-content.show {
+    display: block;
+    max-height: 1000px;
+  }
+  
+  footer {
+    text-align: left;
+    padding: 8px;
+    background-color: #1d4ed4;
+    color: white;
+  }
+  
